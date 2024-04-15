@@ -24,12 +24,12 @@ class Solver:
 
         # reduce
         reduced = self.myreduce(mapped)
-        print("Reduce finished: " + str(reduced))
+        print("Reduce_Finished: " + str(reduced))
 
         # output
         self.write_output(reduced)
 
-        print("Job Finished")
+        print("Job_Finished")
 
     @staticmethod
     @expose
